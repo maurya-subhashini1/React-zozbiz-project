@@ -1,38 +1,351 @@
-.App {
-  text-align: center;
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.TOPBAR{
+    width: 100%;
+    margin-top: 16px;
+}
+.navbar-brand{
+    display: flex;
+}
+.img-responsive{
+    height: 45px;
+}
+.nav-item{
+    margin-left: 3rem;
+}
+.login{
+    width: 7rem;
+    height: 2rem;
+    background-color: lightgrey;
+    border-radius: 25rem;
+    margin-left: 20px;
+}
+.log{
+    margin-left: 29px;
+    margin-top: 4px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.button{
+    width: 10rem;
+    height: 4rem;
+    border: 5px solid palevioletred;
+    border-radius: 25rem;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.btn-size{
+    margin-left: 25px;
+    margin-top: 11px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.heading{
+    margin-left: 30px;
+    margin-top: 5rem;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: bold;
+}
+.paragraph{
+    margin-left: 30px;
+    font-size: larger;
+    margin-top: 17px;
+}
+.box{
+    width: 40rem;
+    height: 30rem;
+    margin-left: 12rem;
+    margin-top: 50px;
+    position: relative;
+    top:-90px;
+}
+.img-fluid{
+    margin-left: 13px;
+    margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card{
+    width: 100%;
+    border: 4px solid #C4C4C4;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-image: url('../public/Vector.png');
+    margin-top: 20px;
+}
+.pick {
+    margin-top: 100px;
+}
+.box-sizing{
+    padding: 10px;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 25rem;
+    background-color: rgb(237, 128, 146);
+    color: white;
+}
+.markerclass{
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 40px;
+    top: 30px;
+}
+.sizing{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+.btn{
+    background-color: pink;
+    color: white;
+    height: 3rem;
+    border-radius: 25px;
+}
+.card-title{
+    font-size: 37px;
+    margin-top: 15px;
+    
+}
+.card-subtitle{
+    font-size: x-large;
+    margin-top: 12px;
+}
+.btn{
+    margin-top: 15px;
+}
+.paragraph-one{
+    margin-top: 30px;
+    font-size: larger;
+}
+
+ .image-size {
+    width: 10rem;
+    margin-top: 23px;
+}
+.size{
+    position: relative;
+    top: -110px;
+}
+.images-size{
+    position: relative;
+    top: -480px;
+    left: 50px;
+} 
+
+
+.card-size {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.class-try{
+    margin-top: 90px;
+    ;
+}
+.title{
+    margin-top: -420px;
+    font-weight: bold;
+}
+.blackclass{
+    position: relative;
+    width: 200px;
+    left: 150px;
+}
+.dotedclass{
+    position: relative;
+    width: 100px;
+    right: 206px;
+    top: 71px;
+}
+.responsive {
+    position: relative;
+    width: 100%;
+    height: auto;
   }
+.img-fluid-three{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: -400px;
+} 
+
+
+.img-fluid-two{
+    position: relative;
+    width: 70px;
+    bottom: 940px;
+}
+.paragraph1{
+    font-size: larger;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.art-responsive{
+    position: relative;
+    width: 30%;
+    height: auto;
+    right: -171px;
+    bottom: -106px;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.mekup-responsive{
+    position: relative;
+    width: 60%;
+    height: auto;
+    left: -33px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.three-responsive{
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 58px;
+    bottom: 204px;
+}
+
+.div {
+    margin-top: 20px;
+}
+.btn-secondry{
+    width: 13rem;
+    height: 3rem;
+    border: 5px solid pink;
+    border-radius: 25rem;
+    background-color: white;
+    margin-top: 30px;
+}
+.img1-responsive{
+    width: 18rem;
+    height: auto;
+    padding: 10px;
+}
+.img2-responsive{
+    width: 18rem;
+    height: auto;
+    padding: 10px;
+}
+
+.img3-responsive{
+    width: 18rem;
+    height: auto;
+    padding: 10px;
+}
+.img4-responsive{
+    width: 18rem;
+    height: auto;
+    padding: 10px;
+}
+.logo-responsive{
+    width: 220px;
+}
+
+.icon{
+    margin-top: 2px;
+
+}
+.headsize{
+    margin-top: 40px;
+}
+.headsize-help{
+    margin-top: 66px;
+}
+.mediumclass{
+    margin-top: 95px;
+}
+
+.facebook, .sc, .twitter{
+    margin-left: 20px;
+}
+.footer-copyright{
+    margin-top: 30px;
+    border: 2px solid lightgrey;
+    display: flex;
+}
+
+.terms{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.privacy{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.classpara{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+@media screen and (min-width: 600px),(max-width: 600px)  { 
+
+        .box{
+        position: relative;
+        width: 30rem;
+        height: 20rem;
+        margin-left: 0px;
+    }
+.img {   
+    width: 13rem;
+    height: 12rem;
+    margin-top: -320px;
+    position: fixed; 
+    visibility: hidden;   
+}
+.button{
+    width: 10rem;
+    height: 4rem;
+    border: 5px solid palevioletred;
+    border-radius: 25rem;
+    margin-left: 29px;
+    margin-top: 30px;
+}
+.pick {
+    margin-top: 133px;
+}
+.responsive {
+    position: relative;
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+
+.img-fluid-two{
+    position: relative;
+    width: 70px;
+    bottom: 670px;
+}
+.btn-last{
+    margin-top: 10px;
+    width: 15rem;
+    height: 3rem;
+    background-color: pink;
+    color: white;
+    border-radius: 25rem;
+    margin-bottom: 40px;
+}
+.main {
+    background-color: rgb(233, 253, 246);
+    height: 836px;
+
+}
+
+.markerclass {
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 40px;
+    top: 30px;
+    visibility: hidden;
+}
+
+.classpara{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
 }
